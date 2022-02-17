@@ -47,37 +47,29 @@
       "id": 4
     },
     {
-      "id": 5
+      "id": 5,
+      "name": "gffg",
+      "completed": ""
     },
     {
-      "state": {
-        "items": [
-          {
-            "name": "fetch water",
-            "completed": "complete",
-            "id": 1
-          },
-          {
-            "name": "take water",
-            "completed": "uncomplete",
-            "id": 2
-          },
-          {
-            "name": "use vuex",
-            "completed": "complete",
-            "id": 3
-          },
-          {
-            "name": "take a shower",
-            "completed": "uncomplete",
-            "id": 4
-          },
-          {
-            "id": 5
-          }
-        ]
-      },
-      "id": 6
+      "id": 6,
+      "name": "forget",
+      "completed": "uncompleted"
+    },
+    {
+      "id": 7,
+      "name": "will these work",
+      "completed": "uncompleted"
+    },
+    {
+      "id": 8,
+      "name": "ffg",
+      "completed": "uncompleted"
+    },
+    {
+      "id": 9,
+      "name": "fff",
+      "completed": "uncompleted"
     }
   ]
 }

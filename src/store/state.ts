@@ -6,8 +6,10 @@ export interface TodoItem {
 
 export type State = {
   items: TodoItem[];
+  succes: string;
 };
 
 export const state: State = {
   items: [],
+  succes: "",
 };

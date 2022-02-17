@@ -12,3 +12,7 @@ export enum MutationTypes {
 export interface ResponseData {
   data: any;
 }
+export interface normalTypes {
+  name: string;
+  completed: string;
+}

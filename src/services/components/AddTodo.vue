@@ -14,9 +14,8 @@
 import { defineComponent, ref } from "vue";
 
 import { useStore } from "@/store";
-import { MutationTypes } from "@/store/types";
-import { TodoItem } from "@/store/state";
-import { ActionTypes } from "@/store/types";
+import { state, TodoItem } from "@/store/state";
+import { ActionTypes, normalTypes, MutationTypes } from "@/store/types";
 
 export default defineComponent({
   setup() {
@@ -29,10 +28,10 @@ export default defineComponent({
       const item: TodoItem = {
         id: null,
         name: text.value,
-        completed: "",
+        completed: "uncompleted",
       };
-      store.dispatch(ActionTypes.AddTodoItems);
       text.value = "";
+      store.dispatch(ActionTypes.AddTodoItems, item);
     };
     return { createTask, text };
   },
